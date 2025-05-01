@@ -4,9 +4,9 @@ import os
 from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 
-API_TOKEN = os.getenv("API_TOKEN")
+API_TOKEN = os.getenv("7685494696:AAHzN9vLLs8ejN9NqghjUtPdNnjtst6i5Yk")
 
-bot = Bot(token=API_TOKEN)
+bot = Bot(token=7685494696:AAHzN9vLLs8ejN9NqghjUtPdNnjtst6i5Yk)
 dp = Dispatcher(bot)
 
 with open("config.json", "r") as f:
